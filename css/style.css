@@ -24,15 +24,16 @@
   background-color: orange;
   color: red;
 }
+/* navbar2 */
 .navbar2 ul {
   display: flex;
-  /* flex: 1; */
+  flex: 1;
   list-style: none;
   padding: 5px;
   border: 1px solid red;
   justify-content: space-between;
 }
-.bavbar2:first-child {
+.navbar2:first-child {
   flex: 3;
 }
 .navbar2 ul:last-child {
