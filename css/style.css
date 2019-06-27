@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+}
 .header-navbar {
   background-color: rgb(243, 211, 211);
   border: 1px solid black;
