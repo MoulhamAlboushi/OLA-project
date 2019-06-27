@@ -52,3 +52,12 @@
 li {
   border: 1px solid black;
 }
+.navbar3 {
+  background-color: violet;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
