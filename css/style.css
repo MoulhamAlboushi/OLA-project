@@ -11,6 +11,7 @@ html {
 }
 .navbar1 {
   border: 1px solid black;
+  border-radius: 15px;
   color: red;
   padding: 0;
   margin: 0.3rem;
@@ -21,6 +22,9 @@ html {
   color: red;
   background-color: orange;
   font-style: italic;
+}
+.navbar1:hover {
+  background-color: rgb(251, 255, 0);
 }
 .navbar1:first-child {
   flex: 2;
@@ -39,6 +43,13 @@ html {
 }
 .navbar1search:hover {
   background-color: red;
+  border-radius: 30%;
+}
+.imgheader img {
+  margin: 5px;
+  width: 98%;
+  /* border: 1px solid black; */
+  border-radius: 70px;
 }
 /* .navbar2 {
   border: 1px solid black;
